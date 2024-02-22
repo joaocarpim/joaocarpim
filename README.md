@@ -24,7 +24,6 @@
 <!-- Links -->
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/toquinhaman/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-aparecido-carpim-de-souza-303934276/)
-[![Gmail](https://img.shields.io/badge/Gmail-c6c6c6?style=for-the-badge&logo=gmail&logoColor=red)](https://www.kaggle.com/variablebee)
 
 <!-- GithubStats -->
 ![joaocarpim GitHub stats](https://github-readme-stats.vercel.app/api?username=joaocarpim&show_icons=true&theme=radical)
