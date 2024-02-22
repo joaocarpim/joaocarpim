@@ -6,7 +6,7 @@
 <!-- Presentation -->
 <p>
  
-  - 🌱 Atualmente estou estudando Desenvolvimento de Sistemas AMS Fatec <img align="center" alt="html5" src="https://img.shields.io/badge/Fatec-000?style=for-the-badge&logo=edx&logoColor=white" />
+  - 🌱 Atualmente estou estudando Desenvolvimento de Sistemas AMS Fatec <img align="center" alt="html5" src="https://img.shields.io/badge/Fatec-000?style=for-the-badge" />
 
   - 🔭 Estou em busca da minha primeira oportunidade de emprego. Sonho em contribuir tando no desenvolvimento quanto na gestão de projetos
 </p>
@@ -24,7 +24,7 @@
 <!-- Links -->
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/toquinhaman/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-aparecido-carpim-de-souza-303934276/)
-[![Gmail](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/variablebee)
+[![Gmail](https://img.shields.io/badge/Gmail-c6c6c6?style=for-the-badge&logo=gmail&logoColor=red)](https://www.kaggle.com/variablebee)
 
 <!-- GithubStats -->
 ![joaocarpim GitHub stats](https://github-readme-stats.vercel.app/api?username=joaocarpim&show_icons=true&theme=radical)
@@ -43,10 +43,11 @@
 ## 🐱‍👤 Habilidades
 <!-- Skills: Programming Languages -->
   <div style="flex-basis: 48%;">
-    <h3>Programming Languages</h3>
+    <h3>Linguagens</h3>
     <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    <img align="center" alt="php" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
     <img align="center" alt="csharp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
   </div>
   
