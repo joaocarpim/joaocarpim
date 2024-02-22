@@ -29,7 +29,7 @@
 <!-- GithubStats -->
 ![joaocarpim GitHub stats](https://github-readme-stats.vercel.app/api?username=joaocarpim&show_icons=true&theme=radical)
 
- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joaocarpim&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false" height="150" alt="languages graph"  />
+ <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joaocarpim&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false" height="100" alt="languages graph"  />
 
 
 <!-- Portfolio -->
@@ -40,7 +40,7 @@
 - [Em breve...](https://github.com/)
 
 
-## 🔥🐱‍👤 Habilidades
+## 🐱‍👤 Habilidades
 <!-- Skills: Programming Languages -->
   <div style="flex-basis: 48%;">
     <h3>Programming Languages</h3>
