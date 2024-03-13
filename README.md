@@ -6,7 +6,7 @@
 <!-- Presentation -->
 <p>
  
-  - 🌱 Atualmente estou estudando Desenvolvimento de Sistemas AMS Fatec <img align="center" alt="html5" src="https://img.shields.io/badge/Fatec-000?style=for-the-badge" />
+  - 🌱 Atualmente estou estudando Desenvolvimento de Sistemas AMS Fatec    <img align="center" alt="html5" src="https://img.shields.io/badge/Fatec-000?style=for-the-badge" />
 
   - 🔭 Estou em busca da minha primeira oportunidade de emprego. Sonho em contribuir tando no desenvolvimento quanto na gestão de projetos
 </p>
