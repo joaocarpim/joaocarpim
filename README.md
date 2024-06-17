@@ -65,9 +65,8 @@
     <img align="center" alt="Firebase" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg">
     <img align="center" alt="AzureDevOps" width="30" height="40"src="https://github.com/devicons/devicon/blob/master/icons/azuredevops/azuredevops-original.svg">
     <img align="center" alt="Git" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg">
-    <img align="center" alt="Laravel PHP" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-original-wordmark.svg">
-    <img align="center" alt="ApacheServer" width="30" height="40"src="https://github.com/devicons/devicon/blob/master/icons/apache/apache-original.svg">
-    <img align="center" alt="MySQL" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg">
+    <img align="center" alt="ApacheServer" width="40" height="40"src="https://github.com/devicons/devicon/blob/master/icons/apache/apache-original.svg">
+    <img align="center" alt="MySQL" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg">
     <img align="center" alt="Oracle" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/oracle/oracle-original.svg">
 
   </div>
@@ -78,7 +77,7 @@
      <img align="center" alt="Bootstrasp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
      <img align="center" alt="react" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
      <img align="center" alt="MSDotNet" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/dot-net/dot-net-plain-wordmark.svg">
-     <img align="center" alt="Laravel PHP" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-original-wordmark.svg">
+     <img align="center" alt="Laravel PHP" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-original-wordmark.svg">
 
   </div>
 
