@@ -51,7 +51,8 @@
     <img align="center" alt="XMLLanguage" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/xml/xml-plain.svg">
     <img align="center" alt="Python" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
     <img align="center" alt="SASS" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg">
-  
+    <img align="center" alt="java" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg">
+
   
   </div>
   
