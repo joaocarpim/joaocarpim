@@ -39,47 +39,26 @@
 - [Em breve...](https://github.com/)
 
 
-## 🐱‍👤 Habilidades
+## 🐱‍👤 Contato:
 <!-- Skills: Programming Languages -->
   <div style="flex-basis: 48%;">
     <h3>Linguagens</h3>
-    <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-    <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img align="center" alt="php" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
-    <img align="center" alt="csharp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
-    <img align="center" alt="XMLLanguage" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/xml/xml-plain.svg">
-    <img align="center" alt="Python" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg">
-    <img align="center" alt="SASS" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg">
-    <img align="center" alt="java" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg">
-
-  
+    
+  [![My Skills](https://skillicons.dev/icons?i=ts,javascript,html,css,java,php,cs,cpp,c,python,sass)](https://skillicons.dev)
   </div>
   
   <!-- Skills: Tools & Frameworks -->
   <div style="flex-basis: 48%;">
     <h3>Ferramentas/Servidores</h3>
-    <img align="center" alt="VScode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
-    <img align="center" alt="visualstudio" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg">
-    <img align="center" alt="arduinoide" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg">
-    <img align="center" alt="Postman" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original.svg">
-    <img align="center" alt="Firebase" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg">
-    <img align="center" alt="AzureDevOps" width="30" height="40"src="https://github.com/devicons/devicon/blob/master/icons/azuredevops/azuredevops-original.svg">
-    <img align="center" alt="Git" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg">
-    <img align="center" alt="ApacheServer" width="40" height="40"src="https://github.com/devicons/devicon/blob/master/icons/apache/apache-original.svg">
-    <img align="center" alt="MySQL" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg">
-    <img align="center" alt="Oracle" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/oracle/oracle-original.svg">
-
+    
+[![My Skills](https://skillicons.dev/icons?i=visualstudio,vscode,azure,git,figma,arduino,postman,firebase,mysql)](https://skillicons.dev)
   </div>
   
   <!-- Skills: Libraries -->
   <div style="flex-basis: 48%;">
    <h3>Bibliotecas</h3>
-     <img align="center" alt="Bootstrasp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
-     <img align="center" alt="react" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-     <img align="center" alt="MSDotNet" width="30" height="40" src="https://github.com/devicons/devicon/blob/master/icons/dot-net/dot-net-plain-wordmark.svg">
-     <img align="center" alt="Laravel PHP" width="40" height="40" src="https://github.com/devicons/devicon/blob/master/icons/laravel/laravel-original-wordmark.svg">
 
+  [![My Skills](https://skillicons.dev/icons?i=bootstrap,react,git,dotnet,jquery,laravel)](https://skillicons.dev)
   </div>
 
  
