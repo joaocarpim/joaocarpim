@@ -51,7 +51,7 @@
   <div style="flex-basis: 48%;">
     <h3>Ferramentas/Servidores</h3>
     
-[![My Skills](https://skillicons.dev/icons?i=visualstudio,vscode,azure,git,figma,arduino,postman,firebase,mysql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=visualstudio,vscode,azure,maven,git,figma,arduino,postman,firebase,mysql)](https://skillicons.dev)
   </div>
   
   <!-- Skills: Libraries -->
