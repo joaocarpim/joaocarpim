@@ -2,7 +2,6 @@
   
 <h1 style="display: inline-block"> Olá mundo 👋, Sou João Vitor</h1></summary>
 
-
 <!-- Presentation -->
 <p>
  
@@ -40,26 +39,39 @@
 
 
 ## 🐱‍👤 Contato:
-<!-- Skills: Programming Languages -->
-  <div style="flex-basis: 48%;">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <!-- Skills: Programming Languages -->
+  <div style="flex-basis: 30%; margin-bottom: 20px;">
     <h3>Linguagens</h3>
-    
-  [![My Skills](https://skillicons.dev/icons?i=ts,javascript,html,css,java,php,cs,cpp,c,python,sass)](https://skillicons.dev)
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=ts,javascript,html" alt="Icons">
+      <img src="https://skillicons.dev/icons?i=css,java,php" alt="Icons">
+      <img src="https://skillicons.dev/icons?i=cs,cpp,c" alt="Icons">
+      <img src="https://skillicons.dev/icons?i=python,sass" alt="Icons">
+    </a>
   </div>
   
   <!-- Skills: Tools & Frameworks -->
-  <div style="flex-basis: 48%;">
+  <div style="flex-basis: 30%; margin-bottom: 20px;">
     <h3>Ferramentas/Servidores</h3>
-    
-[![My Skills](https://skillicons.dev/icons?i=visualstudio,vscode,azure,maven,git,figma,arduino,postman,firebase,mysql)](https://skillicons.dev)
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=visualstudio,vscode,azure" alt="Icons">
+      <img src="https://skillicons.dev/icons?i=maven,git,figma" alt="Icons">
+      <img src="https://skillicons.dev/icons?i=arduino,postman,firebase" alt="Icons">
+      <img src="https://skillicons.dev/icons?i=mysql" alt="Icons">
+    </a>
   </div>
   
   <!-- Skills: Libraries -->
-  <div style="flex-basis: 48%;">
-   <h3>Bibliotecas</h3>
-
-  [![My Skills](https://skillicons.dev/icons?i=bootstrap,react,git,dotnet,jquery,laravel)](https://skillicons.dev)
+  <div style="flex-basis: 30%; margin-bottom: 20px;">
+    <h3>Bibliotecas</h3>
+    <a href="https://skillicons.dev">
+      <img src="https://skillicons.dev/icons?i=bootstrap,react,git" alt="Icons">
+      <img src="https://skillicons.dev/icons?i=dotnet,jquery,laravel" alt="Icons">
+    </a>
   </div>
+</div>
 
  
 
