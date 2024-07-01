@@ -28,19 +28,17 @@
 ## 📊 Estatísticas do GitHub
 
 <div>
-  <img src="https://github-readme-stats.vercel.app/api?username=joaocarpim&show_icons=true&theme=radical" width="500" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaocarpim&layout=compact&card_width=320&langs_count=5&theme=radical" width="400" />
+  <img src="https://github-readme-stats.vercel.app/api?username=joaocarpim&show_icons=true&theme=radical" width="400" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaocarpim&layout=compact&card_width=320&langs_count=5&theme=radical" width="300" />
 </div>
 
 
 <!-- Portfolio -->
-## Portfolio:
+## 🌟 Portfolio:
 
-| Projeto 1                                                 | Projeto 2                                                 |
-| ---------------------------------------------------------- | ---------------------------------------------------------- |
-| [Em breve...](https://github.com/)                         | [Em breve...](https://github.com/)                         |
-| [Em breve...](https://github.com/)                         | [Em breve...](https://github.com/)                         |
-|                                                            |                                                            |
+| [TAPWM](https://github.com/joaocarpim/TAPWM) | [qihome](https://github.com/joaocarpim/qihome) | [ViajaForumTAP](https://github.com/joaocarpim/ViajaForumTAP) |
+| -------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------- |
+
 
 
 ## 🐱‍👤 Contato:
