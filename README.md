@@ -25,53 +25,30 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-aparecido-carpim-de-souza-303934276/)
 
 <!-- GithubStats -->
-![joaocarpim GitHub stats](https://github-readme-stats.vercel.app/api?username=joaocarpim&show_icons=true&theme=radical)
+## 📊 Estatísticas do GitHub
 
- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=joaocarpim&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false" height="100" alt="languages graph"  />
+<div>
+  <img src="https://github-readme-stats.vercel.app/api?username=joaocarpim&show_icons=true&theme=radical" width="500" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaocarpim&layout=compact&card_width=320&langs_count=5&theme=radical" width="400" />
+</div>
 
 
 <!-- Portfolio -->
 ## Portfolio:
-- [Em breve...](https://github.com/)
-- [Em breve...](https://github.com/)
-- [Em breve...](https://github.com/)
-- [Em breve...](https://github.com/)
+
+| Projeto 1                                                 | Projeto 2                                                 |
+| ---------------------------------------------------------- | ---------------------------------------------------------- |
+| [Em breve...](https://github.com/)                         | [Em breve...](https://github.com/)                         |
+| [Em breve...](https://github.com/)                         | [Em breve...](https://github.com/)                         |
+|                                                            |                                                            |
 
 
 ## 🐱‍👤 Contato:
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <!-- Skills: Programming Languages -->
-  <div style="flex-basis: 30%; margin-bottom: 20px;">
-    <h3>Linguagens</h3>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=ts,javascript,html" alt="Icons">
-      <img src="https://skillicons.dev/icons?i=css,java,php" alt="Icons">
-      <img src="https://skillicons.dev/icons?i=cs,cpp,c" alt="Icons">
-      <img src="https://skillicons.dev/icons?i=python,sass" alt="Icons">
-    </a>
-  </div>
-  
-  <!-- Skills: Tools & Frameworks -->
-  <div style="flex-basis: 30%; margin-bottom: 20px;">
-    <h3>Ferramentas/Servidores</h3>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=visualstudio,vscode,azure" alt="Icons">
-      <img src="https://skillicons.dev/icons?i=maven,git,figma" alt="Icons">
-      <img src="https://skillicons.dev/icons?i=arduino,postman,firebase" alt="Icons">
-      <img src="https://skillicons.dev/icons?i=mysql" alt="Icons">
-    </a>
-  </div>
-  
-  <!-- Skills: Libraries -->
-  <div style="flex-basis: 30%; margin-bottom: 20px;">
-    <h3>Bibliotecas</h3>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=bootstrap,react,git" alt="Icons">
-      <img src="https://skillicons.dev/icons?i=dotnet,jquery,laravel" alt="Icons">
-    </a>
-  </div>
-</div>
-
- 
+| Linguagens                                                                                     | Ferramentas/Servidores                                                                                        | Bibliotecas                                                                                     |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| ![TypeScript](https://skillicons.dev/icons?i=ts) ![JavaScript](https://skillicons.dev/icons?i=javascript) ![HTML](https://skillicons.dev/icons?i=html)      | ![Visual Studio](https://skillicons.dev/icons?i=visualstudio) ![VS Code](https://skillicons.dev/icons?i=vscode) ![Azure](https://skillicons.dev/icons?i=azure) | ![Bootstrap](https://skillicons.dev/icons?i=bootstrap) ![React](https://skillicons.dev/icons?i=react) ![Git](https://skillicons.dev/icons?i=git) |
+| ![CSS](https://skillicons.dev/icons?i=css) ![Java](https://skillicons.dev/icons?i=java) ![PHP](https://skillicons.dev/icons?i=php)                         | ![Maven](https://skillicons.dev/icons?i=maven) ![Git](https://skillicons.dev/icons?i=git) ![Figma](https://skillicons.dev/icons?i=figma)                               | ![.NET](https://skillicons.dev/icons?i=dotnet) ![jQuery](https://skillicons.dev/icons?i=jquery) ![Laravel](https://skillicons.dev/icons?i=laravel)     |
+| ![C#](https://skillicons.dev/icons?i=cs) ![C++](https://skillicons.dev/icons?i=cpp) ![C](https://skillicons.dev/icons?i=c)                                  | ![Arduino](https://skillicons.dev/icons?i=arduino) ![Postman](https://skillicons.dev/icons?i=postman) ![Firebase](https://skillicons.dev/icons?i=firebase) |
+| ![Python](https://skillicons.dev/icons?i=python) ![Sass](https://skillicons.dev/icons?i=sass)                                                         | ![MySQL](https://skillicons.dev/icons?i=mysql)                                                                 |                                                                                                 |
 
