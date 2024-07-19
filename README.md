@@ -14,9 +14,9 @@
 <details>
   <summary>👨‍💻 Sobre mim</summary>
 
- - 💬Tenho 19 anos, atualmente moro no Brasil. Aperfeiçoando meu inglês iniciante e tenho experiências acadêmicas com SQL, desenvolvimento web, ReactNative e  c#. Recetemente na conclusão de meu TCC do Técnico,  me ajudou a desenvolver habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégicas de desenvolvimento Ágil e desenvolvimento iot. 
+ - 💬Tenho 19 anos. Aperfeiçoando meu inglês iniciante e tenho experiências acadêmicas com SQL, desenvolvimento web, ReactNative e  c#. Recetemente na conclusão de meu TCC do Técnico,  me ajudou a desenvolver habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégicas de desenvolvimento Ágil e desenvolvimento iot. 
 
-- ⚡Gosto de praticar esportes e conhecer algo novo, acredito q a moeda mais cara hoje em dia é o conhecimento, pois capacita-nos a enfrentar desafios, maior compreenção e tomar Decisões para assim contribuir \o/
+- ⚡Acredito q a moeda mais cara hoje em dia é o conhecimento, pois capacita-nos a enfrentar desafios, maior compreenção e tomar Decisões para assim contribuir \o/
 
 </details>
 
