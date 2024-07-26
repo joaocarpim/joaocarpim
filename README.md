@@ -2,7 +2,7 @@
   
 <h1 style="display: inline-block"> Olá mundo 👋, Sou João Vitor</h1></summary>
 
-<!-- Presentation -->
+<!-- Apresentação -->
 <p>
  
   - 🌱 Atualmente estou estudando Desenvolvimento de Sistemas AMS Fatec    <img align="center" alt="html5" src="https://img.shields.io/badge/Fatec-000?style=for-the-badge" />
@@ -10,7 +10,7 @@
   - 🔭 Busco contribuir tanto no desenvolvimento quanto na gestão de projetos
 </p>
 
-<!-- Dropdown -->
+<!-- Sobre mim -->
 <details>
   <summary>👨‍💻 Sobre mim</summary>
 
@@ -20,11 +20,11 @@
 
 </details>
 
-<!-- Links -->
+<!-- Links  -->
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/toquinhaman/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-aparecido-carpim-de-souza-303934276/)
 
-<!-- GithubStats -->
+<!-- Estatisticas -->
 ## 📊 Estatísticas do GitHub
 
 <div>
@@ -40,6 +40,7 @@
 | -------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------- |
 
 
+<!-- Conhecimento -->
 
 ## 🗂 Conhecimento Acadêmico:
 
