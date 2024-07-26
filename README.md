@@ -7,14 +7,14 @@
  
   - 🌱 Atualmente estou estudando Desenvolvimento de Sistemas AMS Fatec    <img align="center" alt="html5" src="https://img.shields.io/badge/Fatec-000?style=for-the-badge" />
 
-  - 🔭 Estou em busca da minha primeira oportunidade de emprego. Sonho em contribuir tanto no desenvolvimento quanto na gestão de projetos
+  - 🔭 Busco contribuir tanto no desenvolvimento quanto na gestão de projetos
 </p>
 
 <!-- Dropdown -->
 <details>
   <summary>👨‍💻 Sobre mim</summary>
 
- - 💬Tenho 19 anos. Aperfeiçoando meu inglês iniciante e tenho experiências acadêmicas com SQL, desenvolvimento web, ReactNative e  c#. Recetemente na conclusão de meu TCC do Técnico,  me ajudou a desenvolver habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégicas de desenvolvimento Ágil e desenvolvimento iot. 
+ - 💬 Tenho 19 anos, estou aperfeiçoando meu inglês e tenho experiências acadêmicas com SQL, desenvolvimento web, React Native e C#. Recentemente, ao concluir meu TCC do Técnico, desenvolvi habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégias de desenvolvimento ágil e desenvolvimento IoT.
 
 - ⚡Acredito q a moeda mais cara hoje em dia é o conhecimento, pois capacita-nos a enfrentar desafios, maior compreenção e tomar Decisões para assim contribuir \o/
 
