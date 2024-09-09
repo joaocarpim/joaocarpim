@@ -10,7 +10,7 @@
   - 🔭 Busco contribuir tanto no desenvolvimento quanto na gestão de projetos
 </p>
 
-<!-- Sobre mim --> ai love clarinha
+<!-- Sobre mim --> 
 <details>
   <summary>👨‍💻 Sobre mim</summary>
 
