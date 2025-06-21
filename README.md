@@ -14,9 +14,7 @@
 <details>
   <summary>👨‍💻 Sobre mim</summary>
 
- - 💬 Tenho 19 anos, estou aperfeiçoando meu inglês e tenho experiências acadêmicas com SQL, desenvolvimento web, React Native e C#. Recentemente, ao concluir meu TCC do Técnico, desenvolvi habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégias de desenvolvimento ágil e desenvolvimento IoT.
-
-- ⚡Acredito q a moeda mais cara hoje em dia é o conhecimento, pois capacita-nos a enfrentar desafios, maior compreenção e tomar Decisões para assim contribuir \o/
+ - 💬 Tenho 20 anos, estou aperfeiçoando meu inglês e tenho experiências acadêmicas com SQL, desenvolvimento web, React Native e C#. Recentemente, ao concluir meu TCC do Técnico, desenvolvi habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégias de desenvolvimento ágil e desenvolvimento IoT.
 
 </details>
 
