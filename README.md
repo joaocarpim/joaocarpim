@@ -14,14 +14,13 @@
 <details>
   <summary>👨‍💻 Sobre mim</summary>
 
- - 💬 Tenho 20 anos, estou aperfeiçoando meu inglês e tenho experiências acadêmicas com SQL, desenvolvimento web, React Native e C#. Recentemente, ao concluir meu TCC do Técnico, desenvolvi habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégias de desenvolvimento ágil e desenvolvimento IoT.
+ - 💬 Tenho 20 anos, estou aperfeiçoando meu inglês e tenho experiências acadêmicas com SQL, desenvolvimento web, React Native e C#. Em 2024, apos concluir meu TCC do Técnico, desenvolvi habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégias de desenvolvimento ágil e desenvolvimento IoT. Em 2025 estou realizando alguns projetos com react native, serviços aws, padrões de projeto. 
 
 </details>
 
 <img align="right" src="https://komarev.com/ghpvc/?username=joaocarpim&color=007AFF">
 
 <!-- Links  -->
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/toquinhaman/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-aparecido-carpim-de-souza-303934276/)
 
 <!-- Estatisticas -->
@@ -36,7 +35,7 @@
 <!-- Portfolio -->
 ## 🌟 Portfolio:
 
-| [TAPWM](https://github.com/joaocarpim/TAPWM) | [qihome](https://github.com/joaocarpim/qihome) | [ViajaForumTAP](https://github.com/joaocarpim/ViajaForumTAP) |
+| [TAPWM](https://github.com/joaocarpim/ASAC) | [qihome](https://github.com/joaocarpim/qihome) | [ViajaForumTAP](https://github.com/joaocarpim/ViajaForumTAP) |
 | -------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------- |
 
 
