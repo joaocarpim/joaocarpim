@@ -14,7 +14,7 @@
 <details>
   <summary>👨‍💻 Sobre mim</summary>
 
- - 💬 Tenho 20 anos, estou aperfeiçoando meu inglês e tenho experiências acadêmicas com SQL, desenvolvimento web, React Native e C#. Em 2024, apos concluir meu TCC do Técnico, desenvolvi habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégias de desenvolvimento ágil e desenvolvimento IoT. Em 2025 estou realizando alguns projetos com react native, serviços aws, padrões de projeto. 
+ - 💬 Tenho 20 anos, estou aperfeiçoando meu inglês e tenho experiências acadêmicas com SQL, desenvolvimento web, React Native e C#. Em 2024, apos concluir meu TCC do Técnico, desenvolvi habilidades importantes como criatividade, solução de problemas, comunicação, gestão de projetos, estratégias de desenvolvimento ágil e desenvolvimento IoT. Em 2025 estou desenvolvendo alguns projetos com react native, serviços aws, padrões de projeto. 
 
 </details>
 
