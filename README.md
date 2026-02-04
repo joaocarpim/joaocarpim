@@ -35,11 +35,38 @@
 
 
 <!-- Portfolio -->
-## 🌟 Portfolio:
+> **🚀 [App Braille ASAC](https://github.com/joaocarpim/ASAC)**
+>
+> **`React` `Typescript` `AWS Amplify` `DynamoDB` `Tailwind`**
+> *Aplicativo educacional móvel da ASAC para ensinar Braille de forma interativa, inclusiva e progressiva, com acessibilidade completa, gamificação e integração com tecnologias de nuvem.*
 
-| [TAPWM](https://github.com/joaocarpim/ASAC) | [qihome](https://github.com/joaocarpim/qihome) | [ViajaForumTAP](https://github.com/joaocarpim/ViajaForumTAP) |
-| -------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------------- |
+> **🤖 [Robocode Wrecker](https://github.com/joaocarpim/robocode_CPS)**
+>
+> **`Java 8` `Robocode`**
+> *Robo Wrecker na final, platinou os pódios nas competições de Robocode do Centro Paula Souza por 4 anos. Representando Etec Fernando Prestes e Fatec Sorocaba.*
 
+> **⚓ [AnalyzerHub](https://github.com/joaocarpim/analyzeGitHub)**
+>
+> **`React` `Typescript` ` API Groq` `ServerLess`**
+> *Projeto que analisa perfis do GitHub com IA, mostra seguidores e quem nao segue, gera insights, pontuação de empregabilidade.*
+
+<br />
+<br>
+
+<details>
+<summary><b>📜 Cursos</b></summary>
+<br />
+
+| Data | Nome do Certificado | Fornecedor | Detalhes / Projeto / ID |
+| :--- | :--- | :--- | :--- |
+| **Jan 2026** | **Introdução a AI & Arquiteturas LLM** | BTK Akademi | 🆔 `bx1hLxXZOo` |
+| **Jan 2026** | **Generative AI com Grandes Modelos de Linguagem** | DeepLearning.AI | 🆔 `bx1hLxXZOo` (Anthropic Claude) |
+| **Jan 2026** | **Articulate Storyline 360 Avançado** | BTK Akademi | [📂 Projeto Lab](https://github.com/bahattinyunus/BTK-Articulate-Storyline-360-Lab) |
+| **Dez 2025** | **AI em Segurança de Dados Multimídia** | BTK Akademi | [📂 Workshop Repo](https://github.com/bahattinyunus/btk_atolye_trabzon_ai_multimedya_guvenligi) |
+
+</details>
+
+---
 
 ## 🗂 Conhecimento Acadêmico
 
