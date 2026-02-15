@@ -68,19 +68,16 @@
 
 ---
 
-## 🗂 Conhecimento Acadêmico
+## 🗂 Tecnologias
 
 <table>
-<thead>
-<tr>
-<th align="center" width="200">Categoria</th>
-<th align="left">Tecnologias</th>
-</tr>
-</thead>
 <tbody>
 
 <tr>
 <td align="center"><strong>Linguagens</strong></td>
+</tr>
+
+<tr>
 <td>
 <img src="https://skillicons.dev/icons?i=ts" width="28"/><img src="https://img.shields.io/badge/TypeScript-242938?style=for-the-badge"/>
 <img src="https://skillicons.dev/icons?i=javascript" width="28"/><img src="https://img.shields.io/badge/JavaScript-242938?style=for-the-badge"/>
@@ -97,7 +94,10 @@
 </tr>
 
 <tr>
-<td align="center"><strong>Ferramentas / Servidores</strong></td>
+<td align="center"><strong>Ferramentas</strong></td>
+</tr>
+
+<tr>
 <td>
 <img src="https://skillicons.dev/icons?i=vscode" width="28"/><img src="https://img.shields.io/badge/VS%20Code-242938?style=for-the-badge"/>
 <img src="https://skillicons.dev/icons?i=visualstudio" width="28"/><img src="https://img.shields.io/badge/Visual%20Studio-242938?style=for-the-badge"/>
@@ -116,6 +116,9 @@
 
 <tr>
 <td align="center"><strong>Bibliotecas / Frameworks</strong></td>
+</tr>
+
+<tr>
 <td>
 <img src="https://skillicons.dev/icons?i=react" width="28"/><img src="https://img.shields.io/badge/React-242938?style=for-the-badge"/>
 <img src="https://skillicons.dev/icons?i=bootstrap" width="28"/><img src="https://img.shields.io/badge/Bootstrap-242938?style=for-the-badge"/>
@@ -124,6 +127,11 @@
 <img src="https://skillicons.dev/icons?i=jquery" width="28"/><img src="https://img.shields.io/badge/jQuery-242938?style=for-the-badge"/>
 <img src="https://skillicons.dev/icons?i=vite" width="28"/><img src="https://img.shields.io/badge/Vite-242938?style=for-the-badge"/>
 </td>
+</tr>
+
+</tbody>
+</table>
+
 </tr>
 
 </tbody>
