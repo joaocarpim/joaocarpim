@@ -59,10 +59,10 @@
 
 | Data | Nome do Certificado | Fornecedor | Detalhes / Projeto / ID |
 | :--- | :--- | :--- | :--- |
-| **Jan 2026** | **Introdução a AI & Arquiteturas LLM** | BTK Akademi | 🆔 `bx1hLxXZOo` |
-| **Jan 2026** | **Generative AI com Grandes Modelos de Linguagem** | DeepLearning.AI | 🆔 `bx1hLxXZOo` (Anthropic Claude) |
-| **Jan 2026** | **Articulate Storyline 360 Avançado** | BTK Akademi | [📂 Projeto Lab](https://github.com/bahattinyunus/BTK-Articulate-Storyline-360-Lab) |
-| **Dez 2025** | **AI em Segurança de Dados Multimídia** | BTK Akademi | [📂 Workshop Repo](https://github.com/bahattinyunus/btk_atolye_trabzon_ai_multimedya_guvenligi) |
+| **...** | **...** | ... | 🆔 `...` |
+| **...** | **...** | ... | 🆔 `...` (...) |
+| **...** | **...** | ... | [📂 ...](...) |
+| **...** | **...** | ... | [📂 ...](...) |
 
 </details>
 
