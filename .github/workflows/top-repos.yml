@@ -1,0 +1,36 @@
+name: Update Top Repositories
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # roda todo dia meia noite
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get Top Repos
+        run: |
+          curl -s https://api.github.com/users/joaocarpim/repos?per_page=100 \
+          | jq -r 'sort_by(-.stargazers_count)[:3] 
+          | .[] 
+          | "- 🚀 [\(.name)](\(.html_url)) - ⭐ \(.stargazers_count) estrelas\n  > \(.description)"' \
+          > top_repos.md
+
+      - name: Replace Section
+        run: |
+          awk '/<!--TOP_REPOS_START-->/{print;system("cat top_repos.md");skip=1;next}
+               /<!--TOP_REPOS_END-->/{skip=0}
+               !skip' README.md > README.tmp
+          mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Atualizando Top 3 Repos automaticamente 🚀" || exit 0
+          git push
