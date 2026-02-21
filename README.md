@@ -36,6 +36,12 @@
 ## ⭐ Top 3 Repositórios
 
 <!--TOP_REPOS_START-->
+- 🚀 [ASAC](https://github.com/joaocarpim/ASAC) - ⭐ 23 estrelas
+  > null
+- 🚀 [analyzeGitHub](https://github.com/joaocarpim/analyzeGitHub) - ⭐ 14 estrelas
+  > Projeto que analisa perfis do GitHub com IA, gera insights, score de empregabilidade.
+- 🚀 [AMS_HoldCrypto](https://github.com/joaocarpim/AMS_HoldCrypto) - ⭐ 11 estrelas
+  > null
 <!--TOP_REPOS_END-->
 
 <!-- Portfolio -->
