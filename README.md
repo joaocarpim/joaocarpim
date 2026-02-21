@@ -35,6 +35,23 @@
 ## ⭐ Top 3 Repositórios
 
 <!--TOP_REPOS_START-->
+<div align="center">
+
+| 📦 Repositório | ⭐ Stars | 🍴 Forks | 🗣️ Linguagem |
+|:---|:---:|:---:|:---:|
+| [**ASAC**](https://github.com/joaocarpim/ASAC) <br/> <sub>App educacional Braille, desenvolvido para a ASAC (Associaçã</sub> | ⭐ 23 | 🍴 3 | `TypeScript` |
+| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 14 | 🍴 0 | `CSS` |
+| [**AMS_HoldCrypto**](https://github.com/joaocarpim/AMS_HoldCrypto) <br/> <sub>Plataforma completa de simulação de troca de criptomoedas</sub> | ⭐ 11 | 🍴 2 | `TypeScript` |
+
+</div>
+
+<div align="center">
+
+<a href="https://github.com/joaocarpim/ASAC"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=ASAC&theme=tokyonight&hide_border=true&border_radius=12" /></a> <a href="https://github.com/joaocarpim/analyzeGitHub"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=analyzeGitHub&theme=tokyonight&hide_border=true&border_radius=12" /></a>
+
+<a href="https://github.com/joaocarpim/AMS_HoldCrypto"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=AMS_HoldCrypto&theme=tokyonight&hide_border=true&border_radius=12" /></a>
+
+</div>
 <!--TOP_REPOS_END-->
 
 ## 🎖️ Portifolio
