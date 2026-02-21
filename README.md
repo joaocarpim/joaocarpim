@@ -32,17 +32,10 @@
 | ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joaocarpim&theme=radical) | ![](https://streak-stats.demolab.com?user=joaocarpim&theme=tokyonight&hide_border=false) |
 | :-: | :-: |
 
-<!-- Repositórios -->
 ## ⭐ Top 3 Repositórios
 
 <!--TOP_REPOS_START-->
-<div align="center">
-
-| 📦 Repositório | ⭐ Stars | 🍴 Forks | 🗣️ Linguagem |
-|:---|:---:|:---:|:---:|
-| [**ASAC**](https://github.com/joaocarpim/ASAC) <br/> <sub>App educacional Braille, desenvolvido para a ASAC (Associaçã</sub> | ⭐ 23 | 🍴 3 | `TypeScript` |
-| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 14 | 🍴 0 | `CSS` |
-| [**AMS_HoldCrypto**](https://github.com/joaocarpim/AMS_HoldCrypto) <br/> <sub>_Sem descrição_</sub> | ⭐ 11 | 🍴 2 | `TypeScript` |
+<!--TOP_REPOS_END-->
 </div>
 
 <div align="center">
@@ -53,7 +46,7 @@
 
 </div><!--TOP_REPOS_END-->
 
-## 🎖️ Portifólio
+## 🎖️ Portifolio
 <!-- Portfolio -->
 > **🚀 [App Braille ASAC](https://github.com/joaocarpim/ASAC)**
 >
