@@ -32,7 +32,11 @@
 | ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joaocarpim&theme=radical) | ![](https://streak-stats.demolab.com?user=joaocarpim&theme=tokyonight&hide_border=false) |
 | :-: | :-: |
 
+<!-- Repositórios -->
+## ⭐ Top 3 Repositórios
 
+<!--TOP_REPOS_START-->
+<!--TOP_REPOS_END-->
 
 <!-- Portfolio -->
 > **🚀 [App Braille ASAC](https://github.com/joaocarpim/ASAC)**
