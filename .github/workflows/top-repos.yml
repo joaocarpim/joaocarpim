@@ -1,24 +1,84 @@
 name: Update Top Repositories
-
 on:
   schedule:
-    - cron: "0 0 * * *" # roda todo dia meia noite
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
       - name: Get Top Repos
         run: |
-          curl -s https://api.github.com/users/joaocarpim/repos?per_page=100 \
-          | jq -r 'sort_by(-.stargazers_count)[:3] 
-          | .[] 
-          | "- 🚀 [\(.name)](\(.html_url)) - ⭐ \(.stargazers_count) estrelas\n  > \(.description)"' \
-          > top_repos.md
+          curl -s "https://api.github.com/users/joaocarpim/repos?per_page=100" \
+          | jq -r '
+            sort_by(-.stargazers_count)[:4]
+            | .[]
+            | "<a href=\"\(.html_url)\"><img src=\"https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=\(.name)&theme=tokyonight&hide_border=true&border_radius=12\" /></a>"
+          ' > top_repos.md
+
+          # Formata em grade de 2x2
+          echo "" > top_repos_section.md
+          paste -d'\n' - - < top_repos.md | while IFS= read -r line1 && IFS= read -r line2; do
+            echo "$line1 $line2"
+          done >> top_repos_section.md
+
+          # Fallback caso paste não funcione: simplesmente usar o arquivo gerado
+          if [ ! -s top_repos_section.md ]; then
+            cp top_repos.md top_repos_section.md
+          fi
+
+      - name: Build Section
+        run: |
+          python3 << 'EOF'
+          import json, subprocess, os
+
+          result = subprocess.run(
+              ['curl', '-s', 'https://api.github.com/users/joaocarpim/repos?per_page=100'],
+              capture_output=True, text=True
+          )
+          repos = sorted(json.loads(result.stdout), key=lambda r: r.get('stargazers_count', 0), reverse=True)[:4]
+
+          lines = []
+          lines.append('<div align="center">')
+          lines.append('')
+          lines.append('| 📦 Repositório | ⭐ Stars | 🍴 Forks | 🗣️ Linguagem |')
+          lines.append('|:---|:---:|:---:|:---:|')
+
+          for r in repos:
+            name = r.get('name', '')
+            url = r.get('html_url', '')
+            stars = r.get('stargazers_count', 0)
+            forks = r.get('forks_count', 0)
+            lang = r.get('language') or '—'
+            desc = (r.get('description') or '_Sem descrição_')[:60]
+            lines.append(f'| [**{name}**]({url}) <br/> <sub>{desc}</sub> | ⭐ {stars} | 🍴 {forks} | `{lang}` |')
+
+          lines.append('')
+          lines.append('</div>')
+          lines.append('')
+
+          # Adiciona os cards do github-readme-stats
+          lines.append('<div align="center">')
+          lines.append('')
+          for i in range(0, len(repos), 2):
+            row = repos[i:i+2]
+            imgs = ' '.join(
+              f'<a href="{r["html_url"]}"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo={r["name"]}&theme=tokyonight&hide_border=true&border_radius=12" /></a>'
+              for r in row
+            )
+            lines.append(imgs)
+            lines.append('')
+
+          lines.append('</div>')
+
+          with open('top_repos.md', 'w') as f:
+              f.write('\n'.join(lines))
+
+          print("Seção gerada com sucesso!")
+          EOF
 
       - name: Replace Section
         run: |
@@ -32,5 +92,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Atualizando Top 3 Repos automaticamente 🚀" || exit 0
+          git commit -m "Atualizando Top 4 Repos automaticamente 🚀" || exit 0
           git push
