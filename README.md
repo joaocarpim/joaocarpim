@@ -35,13 +35,7 @@
 ## ⭐ Top 3 Repositórios
 
 <!--TOP_REPOS_START-->
-<div align="center">
-
-| 📦 Repositório | ⭐ Stars | 🍴 Forks | 🗣️ Linguagem |
-|:---|:---:|:---:|:---:|
-| [**ASAC**](https://github.com/joaocarpim/ASAC) <br/> <sub>App educacional Braille, desenvolvido para a ASAC (Associaçã</sub> | ⭐ 23 | 🍴 3 | `TypeScript` |
-| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 14 | 🍴 0 | `CSS` |
-| [**AMS_HoldCrypto**](https://github.com/joaocarpim/AMS_HoldCrypto) <br/> <sub>Plataforma completa de simulação de troca de criptomoedas</sub> | ⭐ 11 | 🍴 2 | `TypeScript` |
+<!--TOP_REPOS_END-->
 
 </div>
 
