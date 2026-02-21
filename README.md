@@ -43,8 +43,6 @@
 | [**ASAC**](https://github.com/joaocarpim/ASAC) <br/> <sub>App educacional Braille, desenvolvido para a ASAC (Associaçã</sub> | ⭐ 23 | 🍴 3 | `TypeScript` |
 | [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 14 | 🍴 0 | `CSS` |
 | [**AMS_HoldCrypto**](https://github.com/joaocarpim/AMS_HoldCrypto) <br/> <sub>_Sem descrição_</sub> | ⭐ 11 | 🍴 2 | `TypeScript` |
-| [**joaocarpim**](https://github.com/joaocarpim/joaocarpim) <br/> <sub>_Sem descrição_</sub> | ⭐ 10 | 🍴 1 | `—` |
-
 </div>
 
 <div align="center">
@@ -55,6 +53,7 @@
 
 </div><!--TOP_REPOS_END-->
 
+## 🎖️ Portifólio
 <!-- Portfolio -->
 > **🚀 [App Braille ASAC](https://github.com/joaocarpim/ASAC)**
 >
