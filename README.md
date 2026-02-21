@@ -37,26 +37,6 @@
 <!--TOP_REPOS_START-->
 <!--TOP_REPOS_END-->
 
-</div>
-
-<div align="center">
-
-<a href="https://github.com/joaocarpim/ASAC"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=ASAC&theme=tokyonight&hide_border=true&border_radius=12" /></a> <a href="https://github.com/joaocarpim/analyzeGitHub"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=analyzeGitHub&theme=tokyonight&hide_border=true&border_radius=12" /></a>
-
-<a href="https://github.com/joaocarpim/AMS_HoldCrypto"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=AMS_HoldCrypto&theme=tokyonight&hide_border=true&border_radius=12" /></a>
-
-</div>
-<!--TOP_REPOS_END-->
-</div>
-
-<div align="center">
-
-<a href="https://github.com/joaocarpim/ASAC"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=ASAC&theme=tokyonight&hide_border=true&border_radius=12" /></a> <a href="https://github.com/joaocarpim/analyzeGitHub"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=analyzeGitHub&theme=tokyonight&hide_border=true&border_radius=12" /></a>
-
-<a href="https://github.com/joaocarpim/AMS_HoldCrypto"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=AMS_HoldCrypto&theme=tokyonight&hide_border=true&border_radius=12" /></a> <a href="https://github.com/joaocarpim/joaocarpim"><img height="130" src="https://github-readme-stats.vercel.app/api/pin/?username=joaocarpim&repo=joaocarpim&theme=tokyonight&hide_border=true&border_radius=12" /></a>
-
-</div><!--TOP_REPOS_END-->
-
 ## 🎖️ Portifolio
 <!-- Portfolio -->
 > **🚀 [App Braille ASAC](https://github.com/joaocarpim/ASAC)**
