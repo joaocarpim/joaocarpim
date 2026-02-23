@@ -65,20 +65,20 @@
 <br />
 <br>
 
-<details>
-<summary><b>📜 Cursos</b></summary>
-<br />
+## 📜 Cursos & Certificações
 
-| Data | Nome do Certificado | Fornecedor | Detalhes / Projeto / ID |
-| :--- | :--- | :--- | :--- |
-| **...** | **...** | ... | 🆔 `...` |
-| **...** | **...** | ... | 🆔 `...` (...) |
-| **...** | **...** | ... | [📂 ...](...) |
-| **...** | **...** | ... | [📂 ...](...) |
+<div align="center">
 
-</details>
+| Badge | Certificado | Fornecedor | Categoria | Detalhes |
+| :---: | :--- | :---: | :---: | :---: |
+| <img src="https://www.datacamp.com/statement-of-accomplishment/badge/course/9b6070693c060fd651184cada92e3a45ee3db2fd.png" width="60"/> | **[Introduction to AWS Boto in Python](https://www.datacamp.com/completed/statement-of-accomplishment/course/9b6070693c060fd651184cada92e3a45ee3db2fd)** | ![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=flat-square&logo=datacamp&logoColor=black) | ![Cloud](https://img.shields.io/badge/Cloud-0ea5e9?style=flat-square) | 🆔 `9b6070...` |
+| <img src="https://www.datacamp.com/statement-of-accomplishment/badge/course/84a2e126200f885cf9725b9d5c44af61ddda2fa3.png" width="60"/> | **[Deploying AI into Production with FastAPI](https://www.datacamp.com/completed/statement-of-accomplishment/course/84a2e126200f885cf9725b9d5c44af61ddda2fa3)** | ![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=flat-square&logo=datacamp&logoColor=black) | ![AI](https://img.shields.io/badge/AI-8b5cf6?style=flat-square) | 🆔 `84a2e1...` |
+| <img src="https://www.datacamp.com/statement-of-accomplishment/badge/course/172e0e39c79355e3b191d025bd929db3a09ac377.png" width="60"/> | **[Introduction to APIs in Python](https://www.datacamp.com/completed/statement-of-accomplishment/course/172e0e39c79355e3b191d025bd929db3a09ac377)** | ![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=flat-square&logo=datacamp&logoColor=black) | ![Python](https://img.shields.io/badge/Python-f97316?style=flat-square) | 🆔 `172e0e...` |
+| <img src="https://www.datacamp.com/statement-of-accomplishment/badge/course/182bf95159aff2d70caca15c5894af5593393bc1.png" width="60"/> | **[Intermediate Python for Developers](https://www.datacamp.com/completed/statement-of-accomplishment/course/182bf95159aff2d70caca15c5894af5593393bc1)** | ![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=flat-square&logo=datacamp&logoColor=black) | ![Python](https://img.shields.io/badge/Python-f97316?style=flat-square) | 🆔 `182bf9...` |
+| <img src="https://www.datacamp.com/statement-of-accomplishment/badge/course/fd5ca1b51d44e85ea43461427ba31f30b7763e5b.png" width="60"/> | **[Introduction to AI Agents](https://www.datacamp.com/completed/statement-of-accomplishment/course/fd5ca1b51d44e85ea43461427ba31f30b7763e5b)** | ![DataCamp](https://img.shields.io/badge/DataCamp-03EF62?style=flat-square&logo=datacamp&logoColor=black) | ![AI](https://img.shields.io/badge/AI-8b5cf6?style=flat-square) | 🆔 `fd5ca1...` |
 
----
+</div>
+
 
 ## 🗂 Tecnologias
 
