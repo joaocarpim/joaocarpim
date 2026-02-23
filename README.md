@@ -4,7 +4,6 @@
 
 <!-- Apresentação -->
 <p>
- 
   - 🌱 Atualmente estou estudando Desenvolvimento de Sistemas AMS Fatec    <img align="center" alt="html5" src="https://img.shields.io/badge/Fatec-000?style=for-the-badge" />
 
   - 🔭 Busco contribuir tanto no desenvolvimento quanto na gestão de projetos
