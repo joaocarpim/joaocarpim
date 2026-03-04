@@ -39,7 +39,7 @@
 | 📦 Repositório | ⭐ Stars | 🍴 Forks | 🗣️ Linguagem |
 |:---|:---:|:---:|:---:|
 | [**ASAC**](https://github.com/joaocarpim/ASAC) <br/> <sub>App educacional Braille, desenvolvido para a ASAC (Associaçã</sub> | ⭐ 25 | 🍴 3 | `TypeScript` |
-| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 20 | 🍴 0 | `CSS` |
+| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 21 | 🍴 1 | `CSS` |
 | [**AMS_HoldCrypto**](https://github.com/joaocarpim/AMS_HoldCrypto) <br/> <sub>Plataforma completa de simulação de troca de criptomoedas</sub> | ⭐ 12 | 🍴 2 | `TypeScript` |
 
 </div>
