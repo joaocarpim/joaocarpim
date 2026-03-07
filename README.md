@@ -182,6 +182,6 @@ const joao = {
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,50:1a3a5c,100:0d1b2a&height=80&section=footer" width="100%"/>
+<img src="./footer.svg" width="100%" alt="footer"/>
 
 </div>
