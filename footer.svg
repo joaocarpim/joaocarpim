@@ -122,7 +122,7 @@
   <circle class="fts" style="--d:2.5s;--delay:1.2s;--lo:0.08;--hi:0.8" cx="1030" cy="50"  r="0.7" fill="white"/>
 
   <!-- CONSTELLATION LINES — mirrored/different pattern from header -->
-  <line class="fcl1" x1="72"   cy="0" x1="72"  y1="28"  x2="180" y2="48"  stroke="#63b3ed" stroke-width="0.7"/>
+  <line class="fcl1" x1="72"  y1="28"  x2="180" y2="48"  stroke="#63b3ed" stroke-width="0.7"/>
   <line class="fcl2" x1="180"  y1="48"  x2="295" y2="22"  stroke="#63b3ed" stroke-width="0.7"/>
   <line class="fcl2" x1="295"  y1="22"  x2="410" y2="58"  stroke="#63b3ed" stroke-width="0.7"/>
   <line class="fcl3" x1="410"  y1="58"  x2="510" y2="32"  stroke="#63b3ed" stroke-width="0.7"/>
