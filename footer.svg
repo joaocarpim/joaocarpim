@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" width="100%">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#060910"/>
+      <stop offset="50%"  stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#060910"/>
+    </linearGradient>
+    <linearGradient id="fline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#63b3ed" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#63b3ed" stop-opacity="0.6"/>
+      <stop offset="70%"  stop-color="#4299e1" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#4299e1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fgold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#e6b450" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#e6b450" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#e6b450" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="fglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="fglow2">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .fn1 { animation: fpulse 3s ease-in-out infinite 2.4s; }
+      .fn2 { animation: fpulse 3s ease-in-out infinite 1.8s; }
+      .fn3 { animation: fpulse 3s ease-in-out infinite 1.2s; }
+      .fn4 { animation: fpulse 3s ease-in-out infinite 0.6s; }
+      .fn5 { animation: fpulse 3s ease-in-out infinite 0.0s; }
+      @keyframes fpulse {
+        0%,100% { opacity:0.2; }
+        50%     { opacity:1.0; }
+      }
+      .fgold { animation: fbreathe 4s ease-in-out infinite 2s; }
+      @keyframes fbreathe {
+        0%,100% { opacity:0.4; }
+        50%     { opacity:1.0; }
+      }
+      .fdiam  { animation: fspin  25s linear infinite; transform-origin:600px 50px; }
+      .fdiamo { animation: fspinr 35s linear infinite; transform-origin:600px 50px; }
+      @keyframes fspin  { to { transform:rotate(-360deg); } }
+      @keyframes fspinr { to { transform:rotate(360deg);  } }
+      .fscan { animation: fsweep 6s linear infinite 3s; }
+      @keyframes fsweep {
+        0%   { transform:translateX(1550px); opacity:0; }
+        8%   { opacity:1; }
+        92%  { opacity:1; }
+        100% { transform:translateX(-350px); opacity:0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="100" fill="url(#fbg)"/>
+
+  <!-- Grid -->
+  <line x1="0" y1="25"  x2="1200" y2="25"  stroke="#0d2035" stroke-width="0.5"/>
+  <line x1="0" y1="50"  x2="1200" y2="50"  stroke="#0d2035" stroke-width="0.5"/>
+  <line x1="0" y1="75"  x2="1200" y2="75"  stroke="#0d2035" stroke-width="0.5"/>
+  <line x1="200"  y1="0" x2="200"  y2="100" stroke="#0d2035" stroke-width="0.5"/>
+  <line x1="400"  y1="0" x2="400"  y2="100" stroke="#0d2035" stroke-width="0.5"/>
+  <line x1="600"  y1="0" x2="600"  y2="100" stroke="#0d2035" stroke-width="0.5"/>
+  <line x1="800"  y1="0" x2="800"  y2="100" stroke="#0d2035" stroke-width="0.5"/>
+  <line x1="1000" y1="0" x2="1000" y2="100" stroke="#0d2035" stroke-width="0.5"/>
+
+  <!-- Diagonals left (inverted - come from top) -->
+  <line x1="0"  y1="0" x2="180" y2="100" stroke="#1a3a5c" stroke-width="1"   opacity="0.7"/>
+  <line x1="40" y1="0" x2="220" y2="100" stroke="#1a3a5c" stroke-width="0.7" opacity="0.5"/>
+  <line x1="80" y1="0" x2="260" y2="100" stroke="#0f2a45" stroke-width="0.5" opacity="0.4"/>
+  <!-- Diagonals right -->
+  <line x1="1200" y1="0" x2="1020" y2="100" stroke="#1a3a5c" stroke-width="1"   opacity="0.7"/>
+  <line x1="1160" y1="0" x2="980"  y2="100" stroke="#1a3a5c" stroke-width="0.7" opacity="0.5"/>
+  <line x1="1120" y1="0" x2="940"  y2="100" stroke="#0f2a45" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Outer diamond -->
+  <polygon class="fdiamo" points="600,10 636,50 600,90 564,50"
+    fill="none" stroke="#1e3a5c" stroke-width="1" opacity="0.45"/>
+  <!-- Inner diamond -->
+  <polygon class="fdiam" points="600,28 622,50 600,72 578,50"
+    fill="none" stroke="#63b3ed" stroke-width="0.9" opacity="0.28" filter="url(#fglow)"/>
+
+  <!-- Accent diamonds -->
+  <polygon points="200,38 209,50 200,62 191,50" fill="none" stroke="#1e3a5c" stroke-width="0.8" opacity="0.45"/>
+  <polygon points="1000,38 1009,50 1000,62 991,50" fill="none" stroke="#1e3a5c" stroke-width="0.8" opacity="0.45"/>
+
+  <!-- Connecting lines (static for footer) -->
+  <line x1="200" y1="50"  x2="400"  y2="25"  stroke="#1e3a5c" stroke-width="0.9" opacity="0.5"/>
+  <line x1="400" y1="25"  x2="600"  y2="10"  stroke="#63b3ed" stroke-width="0.7" opacity="0.25"/>
+  <line x1="600" y1="10"  x2="800"  y2="25"  stroke="#63b3ed" stroke-width="0.7" opacity="0.25"/>
+  <line x1="800" y1="25"  x2="1000" y2="50"  stroke="#1e3a5c" stroke-width="0.9" opacity="0.5"/>
+  <line x1="200" y1="50"  x2="400"  y2="75"  stroke="#1e3a5c" stroke-width="0.9" opacity="0.5"/>
+  <line x1="400" y1="75"  x2="600"  y2="90"  stroke="#63b3ed" stroke-width="0.7" opacity="0.2"/>
+  <line x1="600" y1="90"  x2="800"  y2="75"  stroke="#63b3ed" stroke-width="0.7" opacity="0.2"/>
+  <line x1="800" y1="75"  x2="1000" y2="50"  stroke="#1e3a5c" stroke-width="0.9" opacity="0.5"/>
+
+  <!-- Scan sweep (reversed direction) -->
+  <rect class="fscan" x="0" y="0" width="300" height="100"
+    fill="url(#fline)" opacity="0.18"/>
+
+  <!-- Glow line -->
+  <line x1="0" y1="50" x2="1200" y2="50" stroke="url(#fline)" stroke-width="1.5"/>
+  <!-- Gold top accent -->
+  <line x1="0" y1="2" x2="1200" y2="2" stroke="url(#fgold)" stroke-width="1.5"/>
+
+  <!-- Nodes -->
+  <circle class="fn1" cx="200"  cy="50"  r="3" fill="#63b3ed" filter="url(#fglow)"/>
+  <circle class="fn2" cx="400"  cy="25"  r="3" fill="#63b3ed" filter="url(#fglow)"/>
+  <circle class="fn3" cx="600"  cy="50"  r="3" fill="#63b3ed" filter="url(#fglow)"/>
+  <circle class="fn4" cx="800"  cy="25"  r="3" fill="#63b3ed" filter="url(#fglow)"/>
+  <circle class="fn5" cx="1000" cy="50"  r="3" fill="#63b3ed" filter="url(#fglow)"/>
+  <!-- Gold bottom node -->
+  <circle class="fgold" cx="600" cy="90" r="4" fill="#e6b450" filter="url(#fglow2)"/>
+</svg>
