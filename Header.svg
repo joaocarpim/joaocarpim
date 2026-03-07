@@ -1,120 +1,231 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="100%">
   <defs>
-    <linearGradient id="hbg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#060910"/>
-      <stop offset="50%"  stop-color="#0d1b2a"/>
-      <stop offset="100%" stop-color="#060910"/>
+    <linearGradient id="hbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#04080f"/>
+      <stop offset="50%"  stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#04080f"/>
     </linearGradient>
     <linearGradient id="hline" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#63b3ed" stop-opacity="0"/>
-      <stop offset="30%"  stop-color="#63b3ed" stop-opacity="0.7"/>
-      <stop offset="70%"  stop-color="#4299e1" stop-opacity="0.7"/>
+      <stop offset="30%"  stop-color="#63b3ed" stop-opacity="0.6"/>
+      <stop offset="70%"  stop-color="#4299e1" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#4299e1" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="hgold" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#e6b450" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#e6b450" stop-opacity="0.6"/>
+      <stop offset="50%"  stop-color="#e6b450" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#e6b450" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="htriL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#1a3a5c" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1a3a5c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="htriR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#1a3a5c" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1a3a5c" stop-opacity="0.8"/>
+    </linearGradient>
     <filter id="hglow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <filter id="hglow2">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="hglow3">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .hn1 { animation: hpulse 3s ease-in-out infinite; }
-      .hn2 { animation: hpulse 3s ease-in-out infinite 0.6s; }
-      .hn3 { animation: hpulse 3s ease-in-out infinite 1.2s; }
-      .hn4 { animation: hpulse 3s ease-in-out infinite 1.8s; }
-      .hn5 { animation: hpulse 3s ease-in-out infinite 2.4s; }
+      /* --- DIAMONDS --- */
+      /* outer slow counter-rotate */
+      .hdo { animation: hspinL 28s linear infinite; transform-origin: 600px 80px; }
+      /* mid rotate */
+      .hdm { animation: hspinR 18s linear infinite; transform-origin: 600px 80px; }
+      /* inner fast rotate */
+      .hdi { animation: hspinL 10s linear infinite; transform-origin: 600px 80px; }
+
+      @keyframes hspinL { to { transform: rotate(-360deg); } }
+      @keyframes hspinR { to { transform: rotate( 360deg); } }
+
+      /* --- SIDE DIAMONDS orbit --- */
+      .hsdL { animation: horbitL 12s ease-in-out infinite; transform-origin: 200px 80px; }
+      .hsdR { animation: horbitR 12s ease-in-out infinite; transform-origin: 1000px 80px; }
+      @keyframes horbitL {
+        0%,100% { transform: translateY(0px);   opacity: 0.5; }
+        50%     { transform: translateY(-18px);  opacity: 1.0; }
+      }
+      @keyframes horbitR {
+        0%,100% { transform: translateY(0px);   opacity: 0.5; }
+        50%     { transform: translateY(18px);   opacity: 1.0; }
+      }
+
+      /* --- NODES --- */
+      .hn1 { animation: hpulse 3.0s ease-in-out infinite 0.0s; }
+      .hn2 { animation: hpulse 3.0s ease-in-out infinite 0.5s; }
+      .hn3 { animation: hpulse 3.0s ease-in-out infinite 1.0s; }
+      .hn4 { animation: hpulse 3.0s ease-in-out infinite 1.5s; }
+      .hn5 { animation: hpulse 3.0s ease-in-out infinite 2.0s; }
+      .hn6 { animation: hpulse 3.0s ease-in-out infinite 2.5s; }
       @keyframes hpulse {
-        0%,100% { opacity:0.2; }
-        50%     { opacity:1.0; }
+        0%,100% { opacity: 0.15; }
+        50%     { opacity: 1.00; }
       }
-      .hgold { animation: hbreathe 4s ease-in-out infinite; }
-      @keyframes hbreathe {
-        0%,100% { opacity:0.4; }
-        50%     { opacity:1.0; }
+
+      /* --- GOLD CENTER --- */
+      .hgc { animation: hgoldpulse 3.5s ease-in-out infinite; }
+      @keyframes hgoldpulse {
+        0%,100% { opacity: 0.3; }
+        50%     { opacity: 1.0; }
       }
-      .hdiam  { animation: hspin  20s linear infinite; transform-origin:600px 80px; }
-      .hdiamo { animation: hspinr 30s linear infinite; transform-origin:600px 80px; }
-      @keyframes hspin  { to { transform:rotate(360deg);  } }
-      @keyframes hspinr { to { transform:rotate(-360deg); } }
-      .hconn { stroke-dasharray:420; stroke-dashoffset:420; animation:hdraw 2s ease-out forwards; }
-      .hc1{animation-delay:0.6s} .hc2{animation-delay:0.9s}
-      .hc3{animation-delay:1.2s} .hc4{animation-delay:1.5s}
-      .hc5{animation-delay:0.7s} .hc6{animation-delay:1.0s}
-      .hc7{animation-delay:1.3s} .hc8{animation-delay:1.6s}
-      @keyframes hdraw { to { stroke-dashoffset:0; } }
-      .hdiag { animation:hfade 1.5s ease-out forwards; opacity:0; }
-      .hd1{animation-delay:0.1s} .hd2{animation-delay:0.25s} .hd3{animation-delay:0.4s}
-      .hd4{animation-delay:0.15s} .hd5{animation-delay:0.3s} .hd6{animation-delay:0.45s}
-      @keyframes hfade { to { opacity:1; } }
-      .hscan { animation: hsweep 6s linear infinite; }
-      @keyframes hsweep {
-        0%   { transform:translateX(-350px); opacity:0; }
-        8%   { opacity:1; }
-        92%  { opacity:1; }
-        100% { transform:translateX(1550px); opacity:0; }
+
+      /* --- FLOATING PARTICLES --- */
+      .hp1 { animation: hfloat1 8s ease-in-out infinite; }
+      .hp2 { animation: hfloat2 11s ease-in-out infinite 1.5s; }
+      .hp3 { animation: hfloat3 9s ease-in-out infinite 3s; }
+      .hp4 { animation: hfloat4 13s ease-in-out infinite 0.8s; }
+      .hp5 { animation: hfloat5 7s ease-in-out infinite 2s; }
+      .hp6 { animation: hfloat6 10s ease-in-out infinite 4s; }
+
+      @keyframes hfloat1 {
+        0%,100% { transform: translate(0,0);      opacity:0.0; }
+        20%     { opacity: 0.8; }
+        80%     { opacity: 0.6; }
+        100%    { transform: translate(-40px,-50px); opacity:0.0; }
+      }
+      @keyframes hfloat2 {
+        0%,100% { transform: translate(0,0);     opacity:0.0; }
+        20%     { opacity: 0.6; }
+        80%     { opacity: 0.4; }
+        100%    { transform: translate(50px,-40px); opacity:0.0; }
+      }
+      @keyframes hfloat3 {
+        0%,100% { transform: translate(0,0);      opacity:0.0; }
+        25%     { opacity: 0.9; }
+        75%     { opacity: 0.5; }
+        100%    { transform: translate(30px,-60px); opacity:0.0; }
+      }
+      @keyframes hfloat4 {
+        0%,100% { transform: translate(0,0);       opacity:0.0; }
+        20%     { opacity: 0.7; }
+        80%     { opacity: 0.3; }
+        100%    { transform: translate(-30px,-45px); opacity:0.0; }
+      }
+      @keyframes hfloat5 {
+        0%,100% { transform: translate(0,0);     opacity:0.0; }
+        30%     { opacity: 1.0; }
+        70%     { opacity: 0.6; }
+        100%    { transform: translate(45px,-55px); opacity:0.0; }
+      }
+      @keyframes hfloat6 {
+        0%,100% { transform: translate(0,0);       opacity:0.0; }
+        25%     { opacity: 0.5; }
+        75%     { opacity: 0.3; }
+        100%    { transform: translate(-50px,-35px); opacity:0.0; }
+      }
+
+      /* --- CONNECTING LINES BREATHE --- */
+      .hcb { animation: hconnbreathe 5s ease-in-out infinite; }
+      .hcb2 { animation: hconnbreathe 5s ease-in-out infinite 2.5s; }
+      @keyframes hconnbreathe {
+        0%,100% { opacity: 0.2; }
+        50%     { opacity: 0.7; }
+      }
+
+      /* --- TRIANGLE SIDES PULSE --- */
+      .htrL { animation: htrpulseL 6s ease-in-out infinite; }
+      .htrR { animation: htrpulseR 6s ease-in-out infinite 3s; }
+      @keyframes htrpulseL {
+        0%,100% { opacity: 0.15; }
+        50%     { opacity: 0.45; }
+      }
+      @keyframes htrpulseR {
+        0%,100% { opacity: 0.15; }
+        50%     { opacity: 0.45; }
+      }
+
+      /* --- OUTER RING BREATHE --- */
+      .hring { animation: hringpulse 7s ease-in-out infinite; }
+      @keyframes hringpulse {
+        0%,100% { opacity: 0.08; r: 55px; }
+        50%     { opacity: 0.18; r: 62px; }
       }
     </style>
   </defs>
 
+  <!-- BG -->
   <rect width="1200" height="160" fill="url(#hbg)"/>
 
-  <!-- Grid -->
-  <line x1="0" y1="40"  x2="1200" y2="40"  stroke="#0d2035" stroke-width="0.5"/>
-  <line x1="0" y1="80"  x2="1200" y2="80"  stroke="#0d2035" stroke-width="0.5"/>
-  <line x1="0" y1="120" x2="1200" y2="120" stroke="#0d2035" stroke-width="0.5"/>
-  <line x1="200"  y1="0" x2="200"  y2="160" stroke="#0d2035" stroke-width="0.5"/>
-  <line x1="400"  y1="0" x2="400"  y2="160" stroke="#0d2035" stroke-width="0.5"/>
-  <line x1="600"  y1="0" x2="600"  y2="160" stroke="#0d2035" stroke-width="0.5"/>
-  <line x1="800"  y1="0" x2="800"  y2="160" stroke="#0d2035" stroke-width="0.5"/>
-  <line x1="1000" y1="0" x2="1000" y2="160" stroke="#0d2035" stroke-width="0.5"/>
+  <!-- Subtle grid -->
+  <line x1="0" y1="40"  x2="1200" y2="40"  stroke="#0c1e35" stroke-width="0.5"/>
+  <line x1="0" y1="80"  x2="1200" y2="80"  stroke="#0c1e35" stroke-width="0.5"/>
+  <line x1="0" y1="120" x2="1200" y2="120" stroke="#0c1e35" stroke-width="0.5"/>
+  <line x1="200"  y1="0" x2="200"  y2="160" stroke="#0c1e35" stroke-width="0.5"/>
+  <line x1="400"  y1="0" x2="400"  y2="160" stroke="#0c1e35" stroke-width="0.5"/>
+  <line x1="600"  y1="0" x2="600"  y2="160" stroke="#0c1e35" stroke-width="0.5"/>
+  <line x1="800"  y1="0" x2="800"  y2="160" stroke="#0c1e35" stroke-width="0.5"/>
+  <line x1="1000" y1="0" x2="1000" y2="160" stroke="#0c1e35" stroke-width="0.5"/>
 
-  <!-- Diagonals left -->
-  <line class="hdiag hd1" x1="0"  y1="160" x2="180" y2="0" stroke="#1a3a5c" stroke-width="1"/>
-  <line class="hdiag hd2" x1="40" y1="160" x2="220" y2="0" stroke="#1a3a5c" stroke-width="0.7"/>
-  <line class="hdiag hd3" x1="80" y1="160" x2="260" y2="0" stroke="#0f2a45" stroke-width="0.5"/>
-  <!-- Diagonals right -->
-  <line class="hdiag hd4" x1="1200" y1="160" x2="1020" y2="0" stroke="#1a3a5c" stroke-width="1"/>
-  <line class="hdiag hd5" x1="1160" y1="160" x2="980"  y2="0" stroke="#1a3a5c" stroke-width="0.7"/>
-  <line class="hdiag hd6" x1="1120" y1="160" x2="940"  y2="0" stroke="#0f2a45" stroke-width="0.5"/>
+  <!-- Triangle fills left & right -->
+  <polygon class="htrL" points="0,0 300,0 0,160" fill="url(#htriL)"/>
+  <polygon class="htrR" points="1200,0 900,0 1200,160" fill="url(#htriR)"/>
 
-  <!-- Outer diamond -->
-  <polygon class="hdiamo" points="600,18 648,80 600,142 552,80"
-    fill="none" stroke="#1e3a5c" stroke-width="1" opacity="0.45"/>
-  <!-- Inner diamond -->
-  <polygon class="hdiam" points="600,44 624,80 600,116 576,80"
-    fill="none" stroke="#63b3ed" stroke-width="0.9" opacity="0.28" filter="url(#hglow)"/>
+  <!-- Diagonal lines left -->
+  <line x1="0"   y1="160" x2="200" y2="0"   stroke="#1a3a5c" stroke-width="1.2" opacity="0.7"/>
+  <line x1="50"  y1="160" x2="250" y2="0"   stroke="#1a3a5c" stroke-width="0.7" opacity="0.5"/>
+  <line x1="100" y1="160" x2="300" y2="0"   stroke="#0f2a45" stroke-width="0.5" opacity="0.35"/>
+  <!-- Diagonal lines right -->
+  <line x1="1200" y1="160" x2="1000" y2="0"  stroke="#1a3a5c" stroke-width="1.2" opacity="0.7"/>
+  <line x1="1150" y1="160" x2="950"  y2="0"  stroke="#1a3a5c" stroke-width="0.7" opacity="0.5"/>
+  <line x1="1100" y1="160" x2="900"  y2="0"  stroke="#0f2a45" stroke-width="0.5" opacity="0.35"/>
 
-  <!-- Small accent diamonds -->
-  <polygon points="200,67 210,80 200,93 190,80" fill="none" stroke="#1e3a5c" stroke-width="0.8" opacity="0.5"/>
-  <polygon points="1000,67 1010,80 1000,93 990,80" fill="none" stroke="#1e3a5c" stroke-width="0.8" opacity="0.5"/>
-  <polygon points="400,27 408,40 400,53 392,40" fill="none" stroke="#63b3ed" stroke-width="0.6" opacity="0.22"/>
-  <polygon points="800,107 808,120 800,133 792,120" fill="none" stroke="#63b3ed" stroke-width="0.6" opacity="0.22"/>
+  <!-- Connecting lines breathe top -->
+  <line class="hcb"  x1="200" y1="80"  x2="400"  y2="40"  stroke="#63b3ed" stroke-width="0.9"/>
+  <line class="hcb"  x1="400" y1="40"  x2="600"  y2="18"  stroke="#63b3ed" stroke-width="0.8"/>
+  <line class="hcb"  x1="600" y1="18"  x2="800"  y2="40"  stroke="#63b3ed" stroke-width="0.8"/>
+  <line class="hcb"  x1="800" y1="40"  x2="1000" y2="80"  stroke="#63b3ed" stroke-width="0.9"/>
+  <!-- Connecting lines breathe bottom -->
+  <line class="hcb2" x1="200" y1="80"  x2="400"  y2="120" stroke="#63b3ed" stroke-width="0.9"/>
+  <line class="hcb2" x1="400" y1="120" x2="600"  y2="142" stroke="#63b3ed" stroke-width="0.8"/>
+  <line class="hcb2" x1="600" y1="142" x2="800"  y2="120" stroke="#63b3ed" stroke-width="0.8"/>
+  <line class="hcb2" x1="800" y1="120" x2="1000" y2="80"  stroke="#63b3ed" stroke-width="0.9"/>
 
-  <!-- Connecting lines draw top -->
-  <line class="hconn hc1" x1="200" y1="80"  x2="400"  y2="40"  stroke="#1e3a5c" stroke-width="0.9" opacity="0.6"/>
-  <line class="hconn hc2" x1="400" y1="40"  x2="600"  y2="18"  stroke="#63b3ed" stroke-width="0.7" opacity="0.3"/>
-  <line class="hconn hc3" x1="600" y1="18"  x2="800"  y2="40"  stroke="#63b3ed" stroke-width="0.7" opacity="0.3"/>
-  <line class="hconn hc4" x1="800" y1="40"  x2="1000" y2="80"  stroke="#1e3a5c" stroke-width="0.9" opacity="0.6"/>
-  <!-- Connecting lines draw bottom -->
-  <line class="hconn hc5" x1="200" y1="80"  x2="400"  y2="120" stroke="#1e3a5c" stroke-width="0.9" opacity="0.6"/>
-  <line class="hconn hc6" x1="400" y1="120" x2="600"  y2="142" stroke="#63b3ed" stroke-width="0.7" opacity="0.2"/>
-  <line class="hconn hc7" x1="600" y1="142" x2="800"  y2="120" stroke="#63b3ed" stroke-width="0.7" opacity="0.2"/>
-  <line class="hconn hc8" x1="800" y1="120" x2="1000" y2="80"  stroke="#1e3a5c" stroke-width="0.9" opacity="0.6"/>
+  <!-- Outer breathing ring -->
+  <circle class="hring" cx="600" cy="80" r="55" fill="none" stroke="#63b3ed" stroke-width="0.8"/>
 
-  <!-- Scan sweep -->
-  <rect class="hscan" x="0" y="0" width="300" height="160"
-    fill="url(#hline)" opacity="0.18"/>
+  <!-- Side diamonds floating -->
+  <g class="hsdL">
+    <polygon points="200,62 214,80 200,98 186,80" fill="none" stroke="#63b3ed" stroke-width="1" opacity="0.7" filter="url(#hglow)"/>
+  </g>
+  <g class="hsdR">
+    <polygon points="1000,62 1014,80 1000,98 986,80" fill="none" stroke="#63b3ed" stroke-width="1" opacity="0.7" filter="url(#hglow)"/>
+  </g>
 
-  <!-- Glow line -->
+  <!-- Small accent diamonds static -->
+  <polygon points="400,28 408,40 400,52 392,40" fill="none" stroke="#63b3ed" stroke-width="0.6" opacity="0.2"/>
+  <polygon points="800,108 808,120 800,132 792,120" fill="none" stroke="#63b3ed" stroke-width="0.6" opacity="0.2"/>
+
+  <!-- Outer diamond counter-rotate -->
+  <polygon class="hdo" points="600,16 652,80 600,144 548,80"
+    fill="none" stroke="#1e3a5c" stroke-width="1.1" opacity="0.5"/>
+  <!-- Mid diamond rotate -->
+  <polygon class="hdm" points="600,36 630,80 600,124 570,80"
+    fill="none" stroke="#2a5280" stroke-width="0.9" opacity="0.35" filter="url(#hglow)"/>
+  <!-- Inner diamond counter-rotate fast -->
+  <polygon class="hdi" points="600,52 622,80 600,108 578,80"
+    fill="none" stroke="#63b3ed" stroke-width="0.8" opacity="0.3" filter="url(#hglow)"/>
+
+  <!-- Floating particles -->
+  <circle class="hp1" cx="460" cy="110" r="1.5" fill="#63b3ed" filter="url(#hglow)"/>
+  <circle class="hp2" cx="720" cy="120" r="1.5" fill="#63b3ed" filter="url(#hglow)"/>
+  <circle class="hp3" cx="540" cy="130" r="1.2" fill="#e6b450" filter="url(#hglow)"/>
+  <circle class="hp4" cx="340" cy="100" r="1.2" fill="#63b3ed" filter="url(#hglow)"/>
+  <circle class="hp5" cx="860" cy="115" r="1.5" fill="#63b3ed" filter="url(#hglow)"/>
+  <circle class="hp6" cx="650" cy="105" r="1.0" fill="#e6b450" filter="url(#hglow)"/>
+
+  <!-- Glow line center -->
   <line x1="0" y1="80" x2="1200" y2="80" stroke="url(#hline)" stroke-width="1.5"/>
-  <!-- Gold bottom -->
+  <!-- Gold bottom border -->
   <line x1="0" y1="158" x2="1200" y2="158" stroke="url(#hgold)" stroke-width="1.5"/>
 
   <!-- Pulsing nodes -->
@@ -123,6 +234,10 @@
   <circle class="hn3" cx="600"  cy="80"  r="3" fill="#63b3ed" filter="url(#hglow)"/>
   <circle class="hn4" cx="800"  cy="40"  r="3" fill="#63b3ed" filter="url(#hglow)"/>
   <circle class="hn5" cx="1000" cy="80"  r="3" fill="#63b3ed" filter="url(#hglow)"/>
-  <!-- Gold node -->
-  <circle class="hgold" cx="600" cy="18" r="4" fill="#e6b450" filter="url(#hglow2)"/>
+  <circle class="hn6" cx="600"  cy="142" r="2.5" fill="#63b3ed" filter="url(#hglow)"/>
+
+  <!-- Gold center node -->
+  <circle class="hgc" cx="600" cy="18" r="4.5" fill="#e6b450" filter="url(#hglow2)"/>
+  <!-- Gold center soft halo -->
+  <circle class="hgc" cx="600" cy="18" r="12" fill="#e6b450" opacity="0.06" filter="url(#hglow3)"/>
 </svg>
