@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="./header.svg" width="100%" alt="header"/>
+<img src="./Header.svg" width="100%" alt="header"/>
 
 <!-- TYPING HERO -->
 <img src="https://readme-typing-svg.demolab.com?font=Sora&weight=700&size=32&duration=2500&pause=800&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+%F0%9F%91%8B+I'm+Jo%C3%A3o+Carpim;Systems+Developer;Problem+Solver+First%2C+Coder+Second" alt="Typing" />
