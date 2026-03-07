@@ -1,9 +1,7 @@
 
-
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,50:1a3a5c,100:0d1b2a&height=120&section=header&text=&animation=fadeIn" width="100%"/>
+<img src="./header.svg" width="100%" alt="header"/>
 
 <!-- TYPING HERO -->
 <img src="https://readme-typing-svg.demolab.com?font=Sora&weight=700&size=32&duration=2500&pause=800&color=FFFFFF&center=true&vCenter=true&width=600&lines=Hey+%F0%9F%91%8B+I'm+Jo%C3%A3o+Carpim;Systems+Developer;Problem+Solver+First%2C+Coder+Second" alt="Typing" />
