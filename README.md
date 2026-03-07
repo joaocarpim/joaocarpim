@@ -16,6 +16,7 @@
 
 </details>
 
+
 <img align="right" src="https://komarev.com/ghpvc/?username=joaocarpim&color=007AFF">
 
 <!-- Links  -->
@@ -63,6 +64,23 @@
 
 <br />
 <br>
+
+
+
+<div align="center">
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=3500&pause=1200&color=E6B450&center=true&vCenter=true&width=580&lines=%22+First%2C+solve+the+problem.+%22;%22+Then%2C+write+the+code.+%22">
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=3500&pause=1200&color=B8860B&center=true&vCenter=true&width=580&lines=%22+First%2C+solve+the+problem.+%22;%22+Then%2C+write+the+code.+%22" alt="Quote" />
+</picture>
+
+> ### *❝ First, solve the problem. Then, write the code. ❞*
+>
+> <sub>**— John Johnson**</sub>
+
+</div>
 
 ## 📜 Cursos & Certificações
 
