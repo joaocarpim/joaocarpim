@@ -180,6 +180,6 @@ const joao = {
 
 <br/>
 
-<img src="./Footer.svg" width="100%" alt="footer"/>
+<img src="./footer.svg" width="100%" alt="footer"/>
 
 </div>
