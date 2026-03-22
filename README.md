@@ -18,7 +18,7 @@
 &nbsp;
 [![Profile Views](https://komarev.com/ghpvc/?username=joaocarpim&color=0d1b2a&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/joaocarpim)
 &nbsp;
-![Open to Work](https://img.shields.io/badge/🟢_Open_to_Internship-0d1b2a?style=for-the-badge)
+![Open to Work](https://img.shields.io/badge/🟢_Open_to_Connections-0d1b2a?style=for-the-badge)
 
 </div>
 
