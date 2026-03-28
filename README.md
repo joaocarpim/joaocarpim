@@ -49,8 +49,8 @@ const joao = {
 
 | 📦 Repositório | ⭐ Stars | 🍴 Forks | 🗣️ Linguagem |
 |:---|:---:|:---:|:---:|
+| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 32 | 🍴 1 | `CSS` |
 | [**ASAC**](https://github.com/joaocarpim/ASAC) <br/> <sub>App educacional Braille, desenvolvido para a ASAC (Associaçã</sub> | ⭐ 32 | 🍴 3 | `TypeScript` |
-| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 31 | 🍴 1 | `CSS` |
 | [**joaocarpim**](https://github.com/joaocarpim/joaocarpim) <br/> <sub>_Sem descrição_</sub> | ⭐ 19 | 🍴 5 | `—` |
 
 </div>
