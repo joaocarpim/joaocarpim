@@ -51,7 +51,7 @@ const joao = {
 |:---|:---:|:---:|:---:|
 | [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 32 | 🍴 1 | `CSS` |
 | [**ASAC**](https://github.com/joaocarpim/ASAC) <br/> <sub>App educacional Braille, desenvolvido para a ASAC (Associaçã</sub> | ⭐ 32 | 🍴 3 | `TypeScript` |
-| [**joaocarpim**](https://github.com/joaocarpim/joaocarpim) <br/> <sub>_Sem descrição_</sub> | ⭐ 20 | 🍴 4 | `—` |
+| [**joaocarpim**](https://github.com/joaocarpim/joaocarpim) <br/> <sub>_Sem descrição_</sub> | ⭐ 19 | 🍴 4 | `—` |
 
 </div>
 <!--TOP_REPOS_END-->
