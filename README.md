@@ -50,7 +50,7 @@ const joao = {
 | 📦 Repositório | ⭐ Stars | 🍴 Forks | 🗣️ Linguagem |
 |:---|:---:|:---:|:---:|
 | [**ASAC**](https://github.com/joaocarpim/ASAC) <br/> <sub>App educacional Braille, desenvolvido para a ASAC (Associaçã</sub> | ⭐ 34 | 🍴 3 | `TypeScript` |
-| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 30 | 🍴 1 | `CSS` |
+| [**analyzeGitHub**](https://github.com/joaocarpim/analyzeGitHub) <br/> <sub>Projeto que analisa perfis do GitHub com IA, gera insights, </sub> | ⭐ 31 | 🍴 1 | `CSS` |
 | [**joaocarpim**](https://github.com/joaocarpim/joaocarpim) <br/> <sub>_Sem descrição_</sub> | ⭐ 19 | 🍴 4 | `—` |
 
 </div>
